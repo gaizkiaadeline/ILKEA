@@ -1,0 +1,181 @@
+.banner {
+    position: relative;
+    max-width: fit-content;
+}
+
+.slides {
+    display: none;
+}
+
+.slides img {
+    width: 100%;
+}
+
+.next-btn {
+    right: 0;
+}
+
+.prev-btn, .next-btn {
+    padding: 15px;
+    font-weight: bold;
+    width: auto;
+    position: absolute;
+    border-radius: 5px;
+    top: 40%;
+    cursor: pointer;
+}
+
+.prev-btn:hover, .next-btn:hover {
+    background-color: white;
+}
+
+.cursors {
+    text-align: center;
+}
+
+.point {
+    background-color: grey;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.active, .point:hover {
+    background-color: #ead7bb;
+}
+
+.sub-category h1, .sub-brand h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.recomendation h1 {
+    color: red;
+}
+
+.title-category, .title-brand {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sub-category {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+  
+.container-ctg {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+}
+  
+.container-ctg img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+  
+.container-ctg p {
+    margin: 10px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.image-brand {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.sub-brand img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.section {
+    padding-bottom: 30px;
+}
+
+#section2 {
+    display: flex;
+}
+
+.btn {
+    text-align: center;
+}
+
+.view-more-btn {
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.recomendation h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sub-rec {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+  
+.container-rec {
+    padding: 15px;
+}
+  
+.container-rec img {
+    max-width: 100%;
+    height: auto;
+}
+  
+.container-rec p {
+    margin: 10px 0;
+}
+
+.container-rec h2 {
+    color: red;
+}
+
+.overview {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.overview h3 {
+    padding-bottom: 15px;
+}
+
+.overview p {
+    padding: 0 100px 0 100px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .sub-category, .image-brand, .sub-rec {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sub-category, .image-brand, .sub-rec {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

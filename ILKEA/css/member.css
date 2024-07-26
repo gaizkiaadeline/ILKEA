@@ -1,0 +1,85 @@
+.background{
+    background-image: url("../assets/bg-form2.jpeg");
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-size: cover;
+}
+
+.content{
+    width: 85%;
+    height: 90%;
+    position: relative;
+    margin: 60px;
+    z-index: 1;
+}
+
+.content::before{
+    content: '';
+    width: 50%;
+    height: 105%;
+    position: absolute;
+    background-color: black;
+    opacity: 0.75;
+    border-radius: 50px;
+    z-index: -1;
+}
+
+.register{
+    width: 50%;
+    height: 105%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 1.2rem;
+}
+
+form input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 10px 0;
+}
+
+form input::placeholder{
+    color: white;
+}
+
+.gender-selection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button{
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    height: 1.8rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+    .content {
+        width: 100%;
+        margin: 30px;
+    }
+
+    .register {
+        padding-top: 10px;
+    }
+
+    form input, button {
+        width: 100%;
+    }
+}

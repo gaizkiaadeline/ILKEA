@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member | ILKEA</title>
+
+    <link rel="stylesheet" href="../css/member.css">
+    <link rel="stylesheet" href="../css/component.css">
+
+
+</head>
+
+<body>
+    
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a href="home.html">
+                    <img src="../assets/ILKEA.png" alt="Logo">
+                </a>
+            </div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+            </div>
+
+            <div class="icons">
+                <a href="member.html">
+                    <img src="../assets/icon/profile.png" alt="Profile">
+                </a>
+                <img src="../assets/icon/heart-bold.png" alt="Favorite">
+                <img src="../assets/icon/cart-outline.png" alt="Cart">
+            </div>
+        </div>
+
+        <navbar>
+            <div class="navbar" id="navbar">
+                <a href="home.html">Home</a>
+                <a href="gallery.html">Furniture Gallery</a>
+                <a href="member.html">Member</a>
+                <a href="about-us.html">About Us</a>
+                <a href="contact-us.html">Contact Us</a>
+            </div>
+        </navbar>
+    </header>
+
+    <main>
+        <div class="background">
+
+            <div class="content">
+    
+                <div class="register">
+                    <form action="" onsubmit="RegisterValidation(event)">
+    
+                        <h1>Register</h1>
+                        <input type="text" name="" id="username" placeholder="Input Your Username">
+                        <input type="email" name="" id="email" placeholder="Input Your Email Address">
+                        <input type="password" name="" id="password" placeholder="Input Your Password">
+                        <input type="password" name="" id="confirm-password" placeholder="Confirm Password">
+                        <input type="text" name="" id="physical" placeholder="Input Your Physical Address">
+                        <div class="gender-selection">
+                            <label>
+                                <input type="radio" name="gender" value="female" id="gender">
+                                Female
+                            </label>
+                    
+                            <label>
+                                <input type="radio" name="gender" value="male" id="gender">
+                                Male
+                            </label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" id="checkbox"> I have read and agree to the Terms and Condition listed below.
+                        </div>
+                        <button type="submit">Submit</button>
+        
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h2>About Us</h2>
+                    <p>Let's Make Your Home Special.</p>
+                    <p>Bring Home to Life with ILKEA.</p>
+                </div>
+                <div class="footer-section cs">
+                    <h2>Customer Service Center</h2>
+                    <p>Email   : CS@ilkea.com</p>
+                    <p>Hotline : +62 123-4567-8910</p>
+                </div>
+                <div class="footer-section socmed">
+                    <h2>Follow Us</h2>
+                    <p>Connected with us on social media</p>
+
+                    <div class="social-media">
+                        <img src="../assets/icon/baseline-facebook.png" alt="Facebook">
+                        <img src="../assets/icon/tiktok.png" alt="TikTok">
+                        <img src="../assets/icon/instagram.png" alt="Instagram">
+                        <img src="../assets/icon/x.png" alt="X">
+                        <img src="../assets/icon/youtube.png" alt="Youtube">
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Terms of Use - Privacy Policy</p>
+                <p>&#169; 2023 ILKEA Inc.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

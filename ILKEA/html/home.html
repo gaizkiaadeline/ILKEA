@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | ILKEA</title>
+    <link rel="icon" href="../assets/ILKEA.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/component.css">
+
+</head>
+
+<body>
+    
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a href="home.html">
+                    <img src="../assets/ILKEA.png" alt="Logo">
+                </a>
+            </div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+            </div>
+
+            <div class="icons">
+                <a href="member.html">
+                    <img src="../assets/icon/profile.png" alt="Profile">
+                </a>
+                <img src="../assets/icon/heart-bold.png" alt="Favorite">
+                <img src="../assets/icon/cart-outline.png" alt="Cart">
+            </div>
+        </div>
+
+        <navbar>
+            <div class="navbar" id="navbar">
+                <a href="home.html">Home</a>
+                <a href="gallery.html">Furniture Gallery</a>
+                <a href="member.html">Member</a>
+                <a href="about-us.html">About Us</a>
+                <a href="contact-us.html">Contact Us</a>
+            </div>
+        </navbar>
+    </header>
+
+    <main>
+        <div class="banner">
+
+            <div class="slides">
+                <img src="../assets/banner/quote.jpg" id="slides">
+            </div>
+            <div class="slides">
+                <img src="../assets/banner/sale.jpg" id="slides">
+            </div>
+            <div class="slides">
+                <img src="../assets/banner/xmas.jpg" id="slides">
+            </div>
+        
+            <a class="prev-btn" onclick="SliderBtn(-1)">&#10094;</a>
+            <a class="next-btn" onclick="SliderBtn(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div class="cursors">
+            <span class="point" onclick="SliderPos(1)"></span>
+            <span class="point" onclick="SliderPos(2)"></span>
+            <span class="point" onclick="SliderPos(3)"></span>
+        </div>
+    
+        <div class="title-category">
+            <h1>Top Category Picks</h1>
+        </div>
+
+        <div class="section">
+            <div class="sub-category">
+
+                <div class="container-ctg">
+                    <img src="../assets/category/cushions.jpg" alt="ctg-1">
+                    <p>Cushions</p>
+                </div>
+                <div class="container-ctg">
+                    <img src="../assets/category/drawer.jpg" alt="ctg-2">
+                    <p>Drawer</p>
+                </div>
+                <div class="container-ctg">
+                    <img src="../assets/category/home desks.jpg" alt="ctg-3">
+                    <p>Home Desks</p>
+                </div>
+                <div class="container-ctg">
+                    <img src="../assets/category/mattresses.jpg" alt="ctg-1">
+                    <p>Mattress</p>
+                </div>
+                <div class="container-ctg">
+                    <img src="../assets/category/non upholstered chair.jpg" alt="ctg-1">
+                    <p>Non-upholstered chair</p>
+                </div>
+                <div class="container-ctg">
+                    <img src="../assets/category/sofas.jpg" alt="ctg-1">
+                    <p>Sofas</p>
+                </div>
+
+            </div>
+
+        </div>
+        
+        <div class="title-brand">
+            <h1>Brands</h1>
+        </div>
+
+        <div class="section" id="section2">
+            <div class="sub-brand">
+            
+                <div class="image-brand">
+                    <div class="container-brand">
+                        <img src="../assets/brand/7.png" alt="brand-1">
+                    </div>
+                    <div class="container-brand">
+                        <img src="../assets/brand/1.png" alt="brand-2">
+                    </div>
+                    <div class="container-brand">
+                        <img src="../assets/brand/3.png" alt="brand-3">
+                    </div>
+                    <div class="container-brand">
+                        <img src="../assets/brand/2.png" alt="brand-4">
+                    </div>
+                    <div class="container-brand">
+                        <img src="../assets/brand/6.png" alt="brand-5">
+                    </div>
+                    <div class="container-brand">
+                        <img src="../assets/brand/4.png" alt="brand-6">
+                    </div>
+                    <div class="container-brand">
+                        <img src="../assets/brand/8.png" alt="brand-7">
+                    </div>
+    
+                </div>
+                <div class="btn">
+                    <a href="#">
+                        <button class="view-more-btn">View More</button>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="recomendation">
+                <h1>Favorite Products</h1>
+    
+                <div class="sub-rec">
+                    <div class="container-rec">
+                        <img src="../assets/product/vadholma-kitchen-island-black-oak.jpg" alt="kitchen-island-black-oak">
+        
+                        <h5>KITTO</h5>
+                        <p>Kitchen island, black/oak, 49 5/8x31 1/8x35 3/8 "</p>
+                        <h2>689K</h2>
+                        <p>Storage & Organization, Kitchen & Appliance</p>
+                    </div>
+                    <div class="container-rec">
+                        <img src="../assets/product/phalaenopsis-potted-plant-orchid-2-stem-assorted-species-plants.jpg" alt="potted-plant-orchid-2-stem-assorted-species-plants">
+        
+                        <h5>MIXFLOW</h5>
+                        <p>Potted plant, Orchid/2-stem assorted species plants, 3 ½ "</p>
+                        <h2>199K</h2>
+                        <p>Home Decor</p>
+                    </div>
+                    <div class="container-rec">
+                        <img src="../assets/product/himalayamix-potted-plant-assorted-species-plants-plants-with-foliage.jpg" alt="potted-plant-assorted-species-plants-plants-with-foliage">
+        
+                        <h5>HIMALAYAN</h5>
+                        <p>Potted plant, assorted species plants plants with foliage, 4 "</p>
+                        <h2>179K</h2>
+                        <p>Home Decor</p>
+                    </div>
+                    <div class="container-rec">
+                        <img src="../assets/product/lauters-table-lamp-ash-white.jpg" alt="table-lamp-ash-white">
+        
+                        <h5>SUNNS</h5>
+                        <p>Table lamp, ash/white</p>
+                        <h2>529K</h2>
+                        <p>Lightning, Home Decor</p>
+                    </div>
+        
+                </div>
+            </div>
+            
+            <div class="btn">
+                <a href="gallery.html">
+                    <button class="view-more-btn">View More</button>
+                </a>
+                
+            </div>
+
+        </div>
+
+        <div class="overview">
+            <h3>ILKEA</h3>
+            <p>Your gateway to sophisticated living, introduces a curated selection of modern furniture that effortlessly merges style with functionality. Explore a diverse range of pieces designed to elevate your space, reflecting the essence of living at its finest.
+            </p>
+
+        </div>
+        
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h2>About Us</h2>
+                    <p>Let's Make Your Home Special.</p>
+                    <p>Bring Home to Life with ILKEA.</p>
+                </div>
+                <div class="footer-section cs">
+                    <h2>Customer Service Center</h2>
+                    <p>Email   : CS@ilkea.com</p>
+                    <p>Hotline : +62 123-4567-8910</p>
+                </div>
+                <div class="footer-section socmed">
+                    <h2>Follow Us</h2>
+                    <p>Connected with us on social media</p>
+
+                    <div class="social-media">
+                        <img src="../assets/icon/baseline-facebook.png" alt="Facebook">
+                        <img src="../assets/icon/tiktok.png" alt="TikTok">
+                        <img src="../assets/icon/instagram.png" alt="Instagram">
+                        <img src="../assets/icon/x.png" alt="X">
+                        <img src="../assets/icon/youtube.png" alt="Youtube">
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Terms of Use - Privacy Policy</p>
+                <p>&#169; 2023 ILKEA Inc.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
+
+  
