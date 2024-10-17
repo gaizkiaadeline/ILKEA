@@ -1,7 +1,7 @@
 # ILKEA
 
 # About
-This project is a web-based furniture store simulation built using HTML, CSS, and JavaScript. The ILKEA website offers a clean and responsive design, simulating key features of an e-commerce platform, including product displays, a shopping cart, member register, and intuitive navigation. The website is designed to showcase frontend development skills, focusing on user-friendly interface and cross-device compatibility.
+This project is a web-based furniture store simulation built using HTML, CSS, and JavaScript. The ILKEA website offers a clean and responsive design, simulating key features of an e-commerce platform, including product displays, member register, and intuitive navigation. The website is designed to showcase frontend development skills, focusing on user-friendly interface and cross-device compatibility.
 
 Feel free to explore the code and view the live demo!
 
